@@ -5,4 +5,4 @@ router = APIRouter()
 
 @router.get('')
 def hello_world() -> dict:
-    return {'msg': 'Hello, it is a me, Mario!'}
+    return {'msg': 'Hello, it is a me, Luigi!'}
